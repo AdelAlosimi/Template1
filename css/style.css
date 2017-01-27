@@ -1,0 +1,479 @@
+body{
+
+
+
+
+}
+.container  {
+    width: 1170px;
+    margin: auto;
+}
+
+/*start header*/
+
+
+.header .slider {
+    height: 600px;
+    background-image: url("../images/programming-1873854_1920.png");
+    -wbkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    opacity: 0.82;
+}
+.header .slider .intro {
+    height: 600px;
+    text-align: center;
+    color: #F2F2F2;
+
+}
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    border-bottom: 5px solid #fff;
+    padding: 5px 0;
+    padding-top:220px;
+    font-family: 'Lobster', cursive;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+    animation: fadein 5s;
+
+}
+.header .slider .intro button {
+    background: none;
+    color: #fff;
+    margin-top: 32px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 11px 20px;
+    font-family: 'Lobster', cursive;
+
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.7s;
+    cursor: pointer;
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 8s; /* Firefox < 16 */
+    -ms-animation: fadein 8s; /* Internet Explorer */
+    -o-animation: fadein 8s; /* Opera < 12.1 */
+    animation: fadein 8s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.header .slider .intro button:hover {
+    background-color: #e7e7e7;
+    color: #191E22;
+}
+
+
+.header .navbar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8989ba+0,8989ba+100;Purple+3D */
+    background: #8989ba; /* Old browsers */
+    background: -moz-linear-gradient(top,  #8989ba 0%, #8989ba 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #8989ba 0%,#8989ba 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #8989ba 0%,#8989ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8989ba', endColorstr='#8989ba',GradientType=0 ); /* IE6-9 */
+
+    overflow: hidden;
+     text-transform: capitalize;
+     color: #ffffff;
+    font-family: 'Lobster', cursive;
+   /* box-shadow: 10px 10px 5px #888888; */
+
+}
+.header .navbar h2 {
+   float: left;
+
+}
+
+
+.header .navbar span {
+  color : silver;
+}
+
+
+.header .navbar ul {
+    list-style: none;
+    float: right;
+
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 12px;
+}
+.header .navbar ul li a {
+     color: #fff;
+    text-decoration: none;
+}
+.header .navbar ul li a:hover {
+    color: silver;
+}
+
+/*end header*/
+
+
+/*start features*/
+
+.features {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    transform-style: preserve-3d;
+    transform: perspective(750px);
+}
+.features .feat {
+    float: left;
+    width: 33.3%;
+    height: 150px;
+}
+.features .feat h2 {
+    color : #444;
+    font-family: 'Lobster', cursive;
+
+}
+
+.features .feat p {
+    line-height: 1.8;
+    color: #999;
+}
+
+/*end features*/
+
+
+
+
+/*start about-me */
+
+
+.about-me {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,d1d1d1+49,fefefe+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+    background: #f9fcf7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9fcf7 0%, #f5f9f0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f9fcf7 0%,#f5f9f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+
+
+}
+.about-me .image {
+    float: left;
+    width: 40%;
+
+}
+.about-me .image img {
+    width: 100%;
+    border-radius: 30px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height: 470px;
+}
+.about-me .image img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.about-me .info {
+    float: left;
+    width: 60%;
+
+}
+.about-me .info h2 {
+    margin: 20px 0 20px 38px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.about-me .info > p {
+    margin: 0px 0 10px 38px;
+}
+.about-me .info p {
+    line-height: 1.5;
+    color: #434D4F;
+}
+.about-me .info h2 {
+    color: #333;
+}
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+}
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+
+}
+.about-me .info .hobbies .content h3 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+
+}
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 5px;
+}
+.about-me .info .hobbies .content .icon img {
+    max-width: 100%;
+    margin: 20px 10px 0 0 ;
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 83%;
+}
+
+/*end about-me */
+
+
+
+/* Staer My Skills */
+
+
+.My-skills {
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.My-skills .skills,.My-skills .progress {
+    float: left;
+    width: 50%;
+}
+.My-skills .progress .tech {
+    margin-left: 50px;
+}
+.My-skills .progress .tech h3 {
+    margin: 20px 0 20px 38px;
+    font-family: 'Lobster', cursive;
+
+}
+.My-skills .progress .tech div
+{
+    background-color: #f2f2f2;
+    height: 25px;
+
+}
+.My-skills .progress .tech div span {
+    background-color: #2BCC6F;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-align: right;
+}
+.My-skills .skills h2 {
+    margin: 20px 0 20px 38px;
+    font-family: 'Lobster', cursive;
+}
+.My-skills .skills button {
+    background: none;
+    border: 3px solid #8989BA;
+    padding: 10px 30px;
+    color:#8989BA ;
+    margin-left: 40px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+
+}
+.My-skills .skills button:hover {
+    background-color: #8989BA;
+    color: #fff;
+}
+    /* End My Skills */
+
+
+
+/*Start Resume */
+
+
+.resume {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: #f9fcf7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9fcf7 0%, #f5f9f0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f9fcf7 0%,#f5f9f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+}
+.resume h2 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+
+}
+.resume p {
+    padding: 10px;
+}
+.resume button {
+    background: none;
+    border: 3px solid #8989BA;
+    padding: 10px 30px;
+    color:#8989BA ;
+    transition-duration: 0.9s;
+    cursor: pointer;
+
+}
+.resume button:hover {
+    background-color: #8989BA;
+    color: #fff;
+}
+/* end Resume */
+
+
+/*Start portfolio */
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.portfolio .works {
+    overflow: hidden;
+}
+
+.portfolio .works > div {
+    float: left;
+    width: 33.3333%;
+}
+
+.portfolio .works > div > img {
+    width: 95%;
+    height: 300px;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #252F31;
+    box-shadow: 8px 8px 8px 4px #ccc;
+}
+
+
+/* End portfolio */
+
+
+/* Start contact me */
+
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.contact h2 {
+    color: #fff;
+    margin-left: 40px;
+    font-family: 'Lobster', cursive;
+
+}
+.contact p {
+    color: #77787C;
+    margin-left: 40px;
+    line-height: 1.4;
+
+}
+.contact .info{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+.contact p strong {
+    color: #C4C9CC;
+}
+ .contact .form {
+    width: 45%;
+    float: left;
+}
+.contact .form label {
+    display: block;
+    color:#C4C9CC ;
+    margin: 12px 0;
+
+}
+.contact .form input[type="text"]{
+    background-color: #4B5557;
+    color: #fff;
+    border:0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 4%;
+}
+.contact .form textarea{
+    background-color: #4B5557;
+    color: #fff;
+    border:0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 4%;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]{
+    background-color: #191E22;
+    color: #fff;
+    border:0;
+    padding: 10px 20px;
+    border-radius: 7%;
+    margin: 10px;
+}
+/* end contact me */
+
+
+/* start footer */
+.footer {
+    background-color: #191E22;
+    color : #434D4F;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li img {
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+}
+/* end footer */
+
+
